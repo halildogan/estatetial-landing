@@ -4,10 +4,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { list } from "./menu"
-const capitalize = (s) => {
-    if (typeof s !== 'string') return ''
-    return s.charAt(0).toUpperCase() + s.slice(1)
-}
+import { capitalize} from "../../utils"
 
 const renderMenuName = (e) => {
 
