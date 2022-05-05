@@ -7,6 +7,9 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import {Header} from '../components/Header';
 import Main from '../components/Main';
+import NetworkApp from '../components/NetworkApp';
+
+
 import Quality from '../components/Quality';
 import Steps from '../components/Steps';
 import Advantages from '../components/Advantages';
@@ -52,11 +55,17 @@ export default function Landing(props) {
             <Integrations />
           </section>
 
+          <section id="quality" className={"quality"}>
+          <NetworkApp />
+          </section>
+
 
 
           <section id="quality" className={"quality"}>
           < Quality />
           </section>
+
+
           <section id="steps" className={"steps"}>
             <Steps />
           </section>
