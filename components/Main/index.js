@@ -6,9 +6,14 @@ const Main = () => {
     return (
         <div className="main__center center">
             <div className="main__wrap">
-                <div className="stage">RISK-FREE 30 DAY TRIAL</div>
-                <h1 className="main__title d1"><span data-aos="animation-scale-top" data-aos-duration={600}>The best way</span><span data-aos="animation-scale-top" data-aos-duration={600} data-aos-delay={200}>to organize </span><span data-aos="animation-scale-top" data-aos-duration={600} data-aos-delay={400}>your work.</span></h1>
-                <div className="main__text">Organize your tasks, lists and reminders in one app.</div>
+                <div className="stage">Testnet is live!</div>
+                <h1 className="main__title d1">
+
+                    <span data-aos="animation-scale-top" data-aos-duration={600}>The</span>
+                    <span data-aos="animation-scale-top" data-aos-duration={600} data-aos-delay={200}>protocol for </span>
+                    <span data-aos="animation-scale-top" data-aos-duration={600} data-aos-delay={400}>real estate</span>
+                </h1>
+                <div className="main__text">Estatetial is a blockchain multi-sided network protocol that brings all the benefits of decentralization to commercial and residential real estate.</div>
                 <div className="main__btns">
                 <button className="main__btn btn btn_orange">Join the Testnet</button>
                 <button className="main__btn btn btn_border">

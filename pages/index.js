@@ -48,6 +48,12 @@ export default function Landing(props) {
           <section id="main" className={"main"}>
             <Main />
           </section>
+          <section id="integrations" className={"integrations"}>
+            <Integrations />
+          </section>
+
+
+
           <section id="quality" className={"quality"}>
           < Quality />
           </section>
@@ -62,9 +68,6 @@ export default function Landing(props) {
           </section>
           <section id="options" className={"options"}>
             <Options />
-          </section>
-          <section id="integrations" className={"integrations"}>
-            <Integrations />
           </section>
           <section id="description" className={"description"}>
             <Description />
