@@ -19,6 +19,7 @@ import Options from '../components/Options';
 import Integrations from '../components/Integrations';
 import Description from '../components/Description';
 import Productivity from '../components/Productivity';
+import Distribution from '../components/Distribution';
 import Review from '../components/Review';
 import Invite from '../components/Invite';
 import Footer from '../components/Footer';
@@ -67,8 +68,9 @@ export default function Landing(props) {
           </section>
 
           <section id="productivity" className={"productivity"}>
-            <Productivity />
+            <Distribution />
           </section>
+
           <section id="review" className={"review"}>
             <Review />
           </section>
