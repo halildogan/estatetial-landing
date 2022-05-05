@@ -8,12 +8,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import {Header} from '../components/Header';
 import Main from '../components/Main';
 import NetworkApp from '../components/NetworkApp';
+import Wallet from '../components/Wallet';
 
 
 import Quality from '../components/Quality';
 import Steps from '../components/Steps';
 import Advantages from '../components/Advantages';
-import History from '../components/History';
+import BuildCard from '../components/Build';
 import Options from '../components/Options';
 import Integrations from '../components/Integrations';
 import Description from '../components/Description';
@@ -54,38 +55,36 @@ export default function Landing(props) {
           <section id="integrations" className={"integrations"}>
             <Integrations />
           </section>
-
           <section id="quality" className={"quality"}>
           <NetworkApp />
           </section>
+          <section id="quality" className={"quality"}>
+          <Wallet />
+          </section>
 
+          <section id="history" className={"history"}>
+            <BuildCard />
+          </section>
+
+          <section id="productivity" className={"productivity"}>
+            <Productivity />
+          </section>
+          <section id="review" className={"review"}>
+            <Review />
+          </section>
 
 
           <section id="quality" className={"quality"}>
-          < Quality />
+          <Quality />
           </section>
-
-
           <section id="steps" className={"steps"}>
             <Steps />
-          </section>
-          <section id="advantages" className={"advantages"}>
-            <Advantages />
-          </section>
-          <section id="history" className={"history"}>
-            <History />
           </section>
           <section id="options" className={"options"}>
             <Options />
           </section>
           <section id="description" className={"description"}>
             <Description />
-          </section>
-          <section id="productivity" className={"productivity"}>
-            <Productivity />
-          </section>
-          <section id="review" className={"review"}>
-            <Review />
           </section>
           <section id="invite" className={"invite"}>
             <Invite />
