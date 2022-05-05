@@ -5,9 +5,12 @@ const Footer = () => {
 
     return (
         <div>
+            <img  src="images/data/Group_people.svg" style={{
+                marginBottom: "100px"
+            }} />
             <div className="footer__center center">
                 <div className="footer__body">
-                <div className="footer__wrap"><a className="footer__logo" href="index.html"><img className="footer__pic footer__pic_dark" src="images/logo-dark.png" alt /><img className="footer__pic footer__pic_light" src="images/logo-light.png" alt /></a>
+                <div className="footer__wrap"><a className="footer__logo" href="index.html"><img className="footer__pic footer__pic_dark" src="images/data/logo.svg" alt /><img className="footer__pic footer__pic_light" src="images/logo-light.png" alt /></a>
                     <div className="footer__text">Join millions of people who organize work and life with Solo App.</div>
                 </div>
                 <div className="footer__line">
@@ -16,7 +19,7 @@ const Footer = () => {
                 </div>
                 </div>
                 <div className="footer__bottom">
-                <div className="footer__copyright">© Solo Inc. Designed by UI8 Team</div>
+                <div className="footer__copyright">© Estatetial Corp.</div>
                 <div className="footer__social"><a className="footer__link" href="#">
                     <svg className="icon icon-facebook">
                         <use xlinkHref="#icon-facebook" />

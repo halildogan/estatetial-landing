@@ -13,6 +13,8 @@ import Wallet from '../components/Wallet';
 
 import Quality from '../components/Quality';
 import Steps from '../components/Steps';
+import Join from '../components/Join';
+import Features from '../components/Features';
 import Advantages from '../components/Advantages';
 import BuildCard from '../components/Build';
 import Options from '../components/Options';
@@ -56,41 +58,28 @@ export default function Landing(props) {
           <section id="integrations" className={"integrations"}>
             <Integrations />
           </section>
+          <section id="steps" className={"steps"}>
+            <Features />
+          </section>
+          <section id="steps" className={"steps"}>
+            <Join />
+          </section>
           <section id="quality" className={"quality"}>
           <NetworkApp />
           </section>
           <section id="quality" className={"quality"}>
           <Wallet />
           </section>
-
           <section id="history" className={"history"}>
             <BuildCard />
           </section>
-
           <section id="productivity" className={"productivity"}>
             <Distribution />
           </section>
-
           <section id="review" className={"review"}>
             <Review />
           </section>
 
-
-          <section id="quality" className={"quality"}>
-          <Quality />
-          </section>
-          <section id="steps" className={"steps"}>
-            <Steps />
-          </section>
-          <section id="options" className={"options"}>
-            <Options />
-          </section>
-          <section id="description" className={"description"}>
-            <Description />
-          </section>
-          <section id="invite" className={"invite"}>
-            <Invite />
-          </section>
           {/* <div id="about" className={classes.spaceTop}>
             <About />
           </div> */}

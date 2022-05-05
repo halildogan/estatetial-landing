@@ -8,11 +8,13 @@ const WalletCard = () => {
             <div className="quality__body">
                 <div className="quality__bg" />
                  <div className="quality__wrap">
+                    <img  src="images/data/Safe.svg" alt />
                     <h2 className="quality__title h2" data-aos="animation-scale-top" data-aos-duration={600}>EN  Wallet</h2>
                     <div className="quality__text">Manage your digital identity, data, and assets all in one cross-chain wallet.</div>
                     <button className="quality__btn btn btn_border">See more</button>
                 </div>
                 <div className="quality__wrap">
+                    <img  src="images/data/User.svg" alt />
                     <h2 className="quality__title h2" data-aos="animation-scale-top" data-aos-duration={600}>EN ID</h2>
                     <div className="quality__text">Own your data. Manage your identity and assests.</div>
                     <button className="quality__btn btn btn_border">See more</button>
